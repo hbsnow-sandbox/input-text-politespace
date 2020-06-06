@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import InputText1 from './components/InputText1';
+import InputText2 from './components/InputText2';
+import InputText3 from './components/InputText3';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <InputText1 />
+    <InputText2 />
+    <InputText3 />
   </React.StrictMode>,
   document.getElementById('root')
 );
